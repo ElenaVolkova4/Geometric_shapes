@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 558px;
+  height: 558px;
+  background: #d9d9d9;
+  position: relative;
+}
+
+.triangle {
+  position: absolute;
+  display: inline-block;
+  border-bottom: 151px solid #df1f00;
+  border-left: 139px solid transparent;
+  top: 0px;
+  right: 0px;
+}
+
+.circle_small {
+  position: absolute;
+  bottom: 229px;
+  right: 107px;
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  background: #00a85f;
+}
+
+.rectangle_violet {
+  position: absolute;
+  bottom: 75px;
+  left: 71px;
+  width: 417px;
+  height: 110px;
+  border-radius: 40px;
+  background: #a000c6;
+}
+
+.rectangle_blue {
+  position: absolute;
+  transform: rotate(47deg);
+  bottom: 274px;
+  left: 59px;
+  width: 450px;
+  height: 66px;
+  background: #153ca1;
+}
